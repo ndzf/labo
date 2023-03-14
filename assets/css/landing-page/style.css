@@ -29,3 +29,63 @@ header p {
   font-weight: 700;
   color: #fff;
 }
+
+#about-us img {
+  box-shadow: 8px -8px #E5E7EB;
+  transition: .5s;
+}
+
+#about-us img:hover {
+  box-shadow: 8px 8px #d7d7d7;
+}
+
+#about-us .page-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#about-us .lead {
+  margin-bottom: 0;
+  color: #010101;
+  font-size: 1.2rem;
+}
+
+#about-us .stats {
+  display: flex;
+  gap: .5rem;
+}
+
+#about-us .stats .box {
+  display: flex;
+  flex-direction: column;
+}
+
+#about-us .stats .box .value {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+#about-us .stats .box .title {
+  font-weight: 500;
+}
+
+
+.btn-primary {
+  --bs-btn-bg: #10B981;
+  --bs-btn-border-color: #10B981;
+  --bs-btn-hover-bg: #10B981;
+  --bs-btn-hover-border-color: #10B981;
+  --bs-btn-active-bg: #10B981;
+  --bs-btn-active-border-color: #10B981;
+  border-radius: 1rem !important;
+  transition: .5s;
+}
+
+.btn-primary:hover {
+  box-shadow: 2px 2px 5px rgba(16, 185, 129, .5);
+}
+
+.btn-primary:focus {
+  border-radius: 0 !important;
+}
