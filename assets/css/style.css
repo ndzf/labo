@@ -6,7 +6,7 @@ body {
 header {
   width: 100%;
   height: 100vh;
-  background: url("../../images/landing-page/header.svg");
+  background: url("../images/header.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
