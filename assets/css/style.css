@@ -174,3 +174,58 @@ header p {
 #testimoni .user .info p {
   margin: 0;
 }
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+
+footer .separator {
+  border: 1px solid #fff;
+}
+
+footer .lead {
+  color: #9DA2AA;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+footer .navbar-brand {
+  font-weight: 500;
+}
+
+footer .nav-link {
+  padding: .5rem 0;
+  color: #9DA2AA;
+}
+
+footer .nav-link:hover {
+  color: #fff;
+}
+
+footer .nav-link.active {
+  color: #10B981;
+}
+
+#copyright .fw-bold {
+  font-weight: 500 !important;
+}
+
+#copyright .navigation {
+  display: flex;
+}
+
+#copyright .navigation a {
+  padding: 0 1rem;
+  color: #9DA2AA;
+  text-decoration: none;
+  border-right: 1px solid #9DA2AA;
+}
+
+#copyright .navigation a:last-child {
+  border-right: 1px solid #fff;
+}
+
+#copyright .navigation a:hover {
+  color: #10B981;
+} 
