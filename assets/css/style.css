@@ -89,3 +89,88 @@ header p {
 .btn-primary:focus {
   border-radius: 0 !important;
 }
+
+#trusted-by .page-title {
+  font-weight: 600;
+  margin: 0;
+}
+
+#trusted-by .page-lead {
+  color: #9DA2AA;
+  font-weight: 500;
+}
+
+#trusted-by .title {
+  font-size: 1.3rem;
+}
+
+#trusted-by .lead {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #9DA2AA;
+}
+
+#trusted-by .card {
+  transition: .5s;
+  border: 1px solid #fff;
+}
+
+#trusted-by .card:hover {
+  box-shadow: 5px 5px 0 1px #E5E7EB !important;
+  border: 1px solid #10B981 !important;
+}
+
+#testimoni .page-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #10B981 !important;
+}
+
+#testimoni .header {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.splide__slide.card {
+  position: relative;
+  border: 0;
+}
+
+.splide__slide.card img.quote {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  left: 16px;
+}
+
+.splide__slide.card p {
+  position: relative;
+  z-index: 999;
+  margin-top: .3rem;
+}
+
+#testimoni .user {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+}
+
+#testimoni .user img {
+  width: 50px;
+}
+
+#testimoni .user .info {
+  display: flex;
+  flex-direction: column;
+}
+
+#testimoni .user .info h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0 !important;
+}
+
+#testimoni .user .info p {
+  margin: 0;
+}
