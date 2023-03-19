@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Rubik Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Splide JS -->
+  <link rel="stylesheet" href="./assets/vendor/splide/dist/css/splide.min.css">
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Labo</title>
+</head>
+
+<body>
+  <section id="register">
+    <section id="header">
+      <nav class="navbar justify-content-center">
+        <h3 class="mb-0">Form Pendaftaraan</h3>
+      </nav>
+    </section>
+    <section id="form-inputs">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12">
+            <div class="mb-3 mt-5">
+              <label class="col-form-label">Hari / Tanggal</label>
+              <input type="text" name="" class="form-control" placeholder="Hari / Tanggal">
+            </div>
+            <div class="mb-3">
+              <label class="col-form-label">Nama Pelanggan</label>
+              <input type="text" name="" placeholder="Nama Pelanggan" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label class="col-form-label">Alamat Pelanggan</label>
+              <input type="text" name="" placeholder="Alamat Pelanggan" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label class="col-form-label">Jenis / Kode Sample</label>
+              <input type="text" name="" placeholder="Jenis / Kode Sample" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label class="col-form-label">Tanggal / Jam Sampling</label>
+              <input type="text" name="" placeholder="Tanggal / Jam Sampling" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label class="col-form-label">Titik / Lokasi Sampling</label>
+              <input type="text" name="" placeholder="Petugas Sampling" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label class="col-form-label">Petugas Sampling</label>
+              <input type="text" name="" placeholder="Petugas sampling" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label class="col-form-label">No Telephone Pelanggan</label>
+              <input type="text" name="" placeholder="No Telephone Pelanggan" class="form-control">
+            </div>
+            <div class="mb-3 mb-5">
+              <label class="col-form-label">Permintaan Pemeriksaan</label>
+              <input type="text" name="" placeholder="Permintaan Pemeriksaan" class="form-control">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="half-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 my-4">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="p-3">
+                  <h3 class="text-primary title h4 mb-0">BLANKO PEMERIKSAAN LABORATORIUM</h3>
+                </div>
+                <div class="separator"></div>
+                <div class="p-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="a">
+                    <label class="form-check-label" for="a">
+                      Default checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="b">
+                    <label class="form-check-label" for="b">
+                      Default checkbox
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- copy untuk membuat card baru -->
+          <div class="col-12 col-lg-6 my-4">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="p-3">
+                  <h3 class="text-primary title h4 mb-0">BLANKO PEMERIKSAAN LABORATORIUM</h3>
+                </div>
+                <div class="separator"></div>
+                <div class="p-3">
+                  <div class="form-check">
+                    <!-- jgn sampai ada id yang sama -->
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <!-- for disesuaikan dengan id input terkait -->
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-4">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="p-3">
+                  <h3 class="text-primary title h4 mb-0">BLANKO PEMERIKSAAN LABORATORIUM</h3>
+                </div>
+                <div class="separator"></div>
+                <div class="p-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="form-submit">
+      <nav class="navbar justify-content-end py-3">
+        <div class="container justify-content-end gap-4">
+          <a href="./index.html" class="btn btn-white">Cancel</a>
+          <button class="btn btn-primary" type="button" onclick="successMessage()">Submit</button>
+        </div>
+      </nav>
+    </section>
+  </section>
+
+
+  <!-- Bootstrap -->
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Splide  -->
+  <script src="./assets/vendor/splide/dist/js/splide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- Custom Script -->
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

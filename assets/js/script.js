@@ -17,3 +17,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
   });
   splide.mount();
 })
+
+const successMessage = () => {
+  Swal.fire(
+    'Good job!',
+    'You clicked the button!',
+    'success'
+  )
+}

@@ -86,10 +86,6 @@ header p {
   box-shadow: 2px 2px 5px rgba(16, 185, 129, .5);
 }
 
-.btn-primary:focus {
-  border-radius: 0 !important;
-}
-
 #trusted-by .page-title {
   font-weight: 600;
   margin: 0;
@@ -228,4 +224,89 @@ footer .nav-link.active {
 
 #copyright .navigation a:hover {
   color: #10B981;
-} 
+}
+
+
+#register #header .navbar {
+  background-color: rgba(16, 185, 129, .5);
+}
+
+#register #form-inputs {
+  background-color: #D9D9D9;
+}
+
+#register #form-inputs .col-form-label {
+  font-weight: 600;
+}
+
+#register #form-inputs .form-control {
+  transition: .5s;
+}
+
+#register #form-inputs .form-control:focus {
+  box-shadow: none;
+  border: 1px solid #10B981;
+  padding: .375rem 1rem;
+}
+
+#register #form-inputs .form-control::placeholder {
+  font-style: italic;
+}
+
+.half .header {
+  background-color: rgba(16, 185, 129, .5);
+}
+
+.text-primary {
+  color: #10B981 !important;
+}
+
+
+#half-form {
+  background-color: #D9D9D9;
+}
+
+.form-check-input:checked {
+  background-color: #10B981;
+  border: 1px solid #10B981;
+}
+
+
+.form-check-input:focus {
+  box-shadow: 2px 2px 5px rgba(16, 185, 129, .5);
+  border: 1px solid #10B981;
+}
+
+.form-check-label {
+  color: #46494c;
+  transition: .5s;
+}
+
+.form-check {
+  transition: 1s;
+}
+
+.form-check:hover .form-check-label {
+  color: #10B981;
+}
+
+#half-form .separator {
+  border: 1px solid #D9D9D9;
+}
+
+#form-submit {
+  background-color: rgba(16, 185, 129, .5);
+}
+
+#form-submit .btn-primary {
+  border-radius: 1.2rem;
+  padding: .2rem 1.3rem;
+}
+
+#form-submit .btn-white {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #10B981;
+  border-radius: 1.2rem;
+  padding: .2rem 1.3rem;
+}
